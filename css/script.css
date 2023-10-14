@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav-bar{
+    display: flex;
+    background-color: #093f06;
+    justify-content: space-around;
+    color: white;
+    height: 85px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;  /* Ensure the nav-bar appears above other content */
+    
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links ul li a{
+    color: white;
+    padding: 25px;
+}
+
+.logs{
+    justify-content: space-around;
+}
+
+.btn{
+    border: 3px white solid ;
+    padding: 10px 20px 10px 20px;
+    background-color: #093f06;
+    border-radius: 10px;
+    color: #18e03d;
+}
+
+.btn_2{
+    border: 3px #18e03d solid ;
+    padding: 10px 20px 10px 20px;
+    background-color: #18e03d;
+    border-radius: 10px;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/earth-echo/img/eathco_img.png);
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    line-height: 80px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 80px;
+    /* padding: 30px; */
+    
+}
+
+.content p {
+    color: white;
+    /* padding: 30px; */
+}
+
+.btn_3{
+    border: 3px #18e03d solid ;
+    padding: 10px 20px 10px 20px;
+    background-color: #18e03d;
+    border-radius: 10px;
+    color: white;
+    /* width: 10px; */
+}
+
+.protect{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 140px;
+    /* margin-right: 10px; */
+}
+
+.protect-content{
+    text-align: right;
+}
+
+.protect-content h2{
+    padding: 40px 0px 70px 100px;
+}
+
+.protect-content p{
+    /* padding:  */
+    color: grey;
+    font-size: 19.5px;
+}
+
+.mission{
+    margin-left: 140px;
+    line-height: 50px;
+}
+
+.mission h2{
+    padding-top: 40px;
+}
+
+.mission p{
+    padding-bottom: 40px;
+}
+
+.contact{
+    margin-left: 120px;
+    line-height: 50px;
+    margin-right: 130px;
+}
+
+.contact h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(134, 132, 132);
+    border-radius: 4px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button:hover {
+    background-color: #45a049;
+} 
+
+.submit{
+    border: 3px #18e03d solid ;
+    padding: 15px 40px 15px 40px;
+    background-color: #18e03d;
+    border-radius: 10px;
+    color: white;
+    /* width: 10px; */
+}
+
+section{
+    display: flex;
+    padding-top: 30px;
+}
+
+footer{
+    background-color: #093f06;
+    text-align: center;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
